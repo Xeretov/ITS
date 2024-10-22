@@ -1,0 +1,12 @@
+[submodule "Web"]
+	path = Web
+	url = https://github.com/Xeretov/Web.git
+[submodule "Database"]
+	path = Database
+	url = https://github.com/Xeretov/Database.git
+[submodule "Python"]
+	path = Python
+	url = https://github.com/Xeretov/Python.git
+[submodule "Sicurezza"]
+	path = Sicurezza
+	url = https://github.com/Xeretov/Sicurezza.git
