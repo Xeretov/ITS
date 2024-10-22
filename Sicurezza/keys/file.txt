@@ -1,2 +1,0 @@
-openssl enc -aes-256-cbc -salt -in file.txt -out file.enc -k password
-
