@@ -40,4 +40,3 @@ Un esempio completo di un form HTML che include:
 - Checkbox per accettazione della privacy policy
 - Pulsanti di invio e reset
 - Una pagina separata con la privacy policy completa
-provca
