@@ -1,0 +1,6 @@
+venv/
+.venv/
+errorlog.txt
+__pycache__
+uploads/
+Virtual-Enviroments/

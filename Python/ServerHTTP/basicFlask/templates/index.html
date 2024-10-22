@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Sign-in</title>
+        <style>
+            .container{
+                width:max-content;
+                margin:0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>SIGN-IN</h1>
+            <form action="/registrati" method="post" style="margin:0 auto; width: max-content;">
+                <fieldset>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="cf">Codice Fiscale:</label><br>
+                    <input type="text" id="cf" name="cf" required><br>
+                    <label for="passw">Password:</label><br>
+                    <input type="password" id="passw" name="passw" required><br>
+                    <div style="width: max-content; margin: 10px auto;">
+                        <input type="submit" value="registrati">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabelle</title>
+        <style>
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            ol {
+                display: inline-block;
+                text-align: left;
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body style="text-align: center;">
+        <ol>
+            <li>
+                Crea una tabella con 2 righe e 2 colonne. Inserisci del testo nelle celle.<br><br>
+                <table>
+                    <tr>
+                        <td>Riga 1 - Colonna 1</td>
+                        <td>Riga 1 - Colonna 2</td>
+                        <td>Riga 1 - Colonna 3</td>
+                    </tr>
+                    <tr>
+                        <td>Riga 2 - Colonna 1</td>
+                        <td>Riga 2 - Colonna 2</td>
+                        <td>Riga 2 - Colonna 3</td>
+                    </tr>
+                </table>
+            </li>
+            <br>
+            <li>
+                Aggiungi un'intestazione di tabella con 3 colonne e inserisci del testo nelle celle dell'intestazione.<br><br>
+                <table>
+                    <tr>
+                        <th>Matematica</th>
+                        <th>Italiano</th>
+                        <th>Inglese</th>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>6</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </li>
+            <br>
+            <li>
+                Unisci due celle in una riga e inserisci del testo nella cella risultante.<br><br>
+                <table>
+                    <tr>
+                        <th>Matematica</th>
+                        <th>Italiano</th>
+                        <th>Inglese</th>
+                    </tr>
+                    <tr>
+                        <td colspan=2>7</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </li>
+            <br>
+            <li>
+                Aggiungi una cornice alla tabella utilizzando l'attributo border.<br><br>
+                <div class="container">
+                    <table border=1>
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                    <table style="border: 1px solid black;">
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <br>
+            <li>
+                Aggiungi spaziatura alle celle della tabella utilizzando l'attributo cellpadding.<br><br>
+                <div class="container">
+                    <table cellpadding=10 border=1>
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                    <table cellpadding=10 style="border: 1px solid black;">
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <br>
+            <li>
+                Aggiungi spaziatura tra le celle della tabella utilizzando l'attributo cellspacing.<br><br>
+                <div class="container">
+                    <table cellspacing=10 cellpadding=10 border=1>
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                    <table cellspacing=10 cellpadding=10 style="border: 1px solid black;">
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <br>
+            <li>
+                Aggiungi una riga di separazione tra le righe della tabella utilizzando l'elemento hr.<br><br>
+                <div class="container">
+                    <table cellspacing=10 cellpadding=10 border=1>
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=3><hr></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                    <table cellspacing=10 cellpadding=10 style="border: 1px solid black;">
+                        <tr>
+                            <th>Matematica</th>
+                            <th>Italiano</th>
+                            <th>Inglese</th>
+                        </tr>
+                        <tr>
+                            <td colspan=3><hr></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2>7</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>         
+        </ol>
+    </body>
+</html>

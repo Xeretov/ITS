@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HAXOR</title>
+		<style>
+			html, body, .content {
+				height: 100%;
+			}
+			
+			#myVideo {
+			  position: fixed;
+			  right: 0;
+			  bottom: 0;
+			  min-width: 100%;
+			  min-height: 100%;
+			}
+			
+			.content {
+			  position: fixed;
+			  top: 0;
+			  background: rgba(0, 0, 0, 0);
+			  width: 100%;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			 }
+		</style>
+	</head>
+	<body style="overflow: hidden;">
+		<video autoplay muted loop id="myVideo">
+		  <source src="videos/whiteNoise.mp4" type="video/mp4">
+		</video>
+		<div class="content">
+		  <h1 id="toChange" style="color: #20C20E; display: none;">HACKED</h1>
+		</div>
+		<script>
+			// change text
+			setInterval(textChanging,3000);
+			function textChanging(){
+				var a = maketext(4);
+				var b = maketext(4);
+				var c = maketext(4);
+				var d1 = maketext(2);
+				var d2 = maketext(2);
+				var e1 = maketext(1);
+				var e2 = maketext(1);
+				var e3 = maketext(2);
+				var f = maketext(4);
+				setTimeout(change,1000,"H"+a+"D");
+				setTimeout(change,1250,"HA"+b+"");
+				setTimeout(change,1500,""+c+"ED");
+				setTimeout(change,1750,""+d1+"C"+d2+"D");
+				setTimeout(change,2000,""+e1+"A"+e3+"E"+e2+"");
+				setTimeout(change,2250,"H"+f+"D");
+				setTimeout(change,2500,"HACKED");
+			}
+			function change(y){
+				var x = document.getElementById("toChange");
+				x.style.display = "block";
+				x.innerHTML = y;
+			}
+			function maketext(length) {
+				let result = '';
+				const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+				const charactersLength = characters.length;
+				let counter = 0;
+				while (counter < length) {
+				  result += characters.charAt(Math.floor(Math.random() * charactersLength));
+				  counter += 1;
+				}
+				return result;
+			}
+			
+			setTimeout(goBack,10000);
+			function goBack(){
+				window.location.replace("index.html?stato=HACKED");
+			}
+		</script>
+	</body>
+</html>
