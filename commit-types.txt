@@ -1,0 +1,39 @@
+<type>[optional scope or scopes]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+
+types:
+- feat:
+feat(user-auth): add password reset functionality
+- fix:
+fix(database): resolve connection timeout issue
+- docs:
+docs(readme): update project description
+- style:
+style(code): improve code formatting
+- refactor:
+refactor(database): optimize database queries
+- perf:
+perf(database): improve database query performance
+- test:
+test(user-auth): add unit tests for user authentication
+- chore:
+chore(deps): update dependencies
+- build:
+build(deps): update build dependencies
+- ci:
+ci(config): update CI configuration
+- revert:
+revert(database): revert database schema changes
+- wip:
+wip(database): work in progress on database schema changes
+
+special:
+- BREAKING CHANGE:
+feat(api)!: change response format of user endpoint
+
+BREAKING CHANGE: The response format of the /user endpoint has changed.
+The 'name' field is now split into 'firstName' and 'lastName'.
