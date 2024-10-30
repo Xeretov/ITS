@@ -30,6 +30,8 @@ ci(config): update CI configuration
 revert(database): revert database schema changes
 - wip:
 wip(database): work in progress on database schema changes
+- del:
+del(index.html): deleted index.html file
 
 special:
 - BREAKING CHANGE:
