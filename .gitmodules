@@ -10,7 +10,6 @@
 [submodule "Sicurezza"]
 	path = Sicurezza
 	url = https://github.com/Xeretov/Sicurezza.git
-
 [submodule "Contest"]
 	path = Contest
 	url = https://github.com/Xeretov/Contest.git
